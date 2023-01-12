@@ -4,7 +4,7 @@
 // 2) Multi level Inheritance
 // 3) Hierarchial Inheritance
 // 4) Hybrid Inheritance
-// 5) Multiple Inheritance (Not found in java in form of classes, but found in cpp.) Can be used by Interface in java
+// 5) Multiple Inheritance (Not found in java in form of classes, but found in cpp.) Can be used by Interface in java, causes diamond problem.
 
 
 //This is base class / parent class
