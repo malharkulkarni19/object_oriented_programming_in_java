@@ -105,6 +105,7 @@ class ShoppingCart extends ShoppingList{
                 System.out.println("Please enter the amount you want to recharge your wallet with ");
                 double amount = sc.nextDouble();
                 recharge(amount);
+                sc.close();
             }
         }
     }
@@ -128,6 +129,7 @@ public class ShoppingCartProject {
         String item_name =  obj.list(item_code);
         double price = obj.price(item_name);
         obj.bill(price);
+        sc2.close();
     }
 
 }
