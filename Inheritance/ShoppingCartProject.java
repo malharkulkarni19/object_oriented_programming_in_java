@@ -131,6 +131,7 @@ public class ShoppingCartProject {
         obj.bill(price);
         sc2.close();
         System.out.println("Finally, Done");
+        //Delete
     }
 
 }
