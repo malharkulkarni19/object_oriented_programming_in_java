@@ -130,6 +130,7 @@ public class ShoppingCartProject {
         double price = obj.price(item_name);
         obj.bill(price);
         sc2.close();
+        // Newly added feature, comment added
         System.out.println("Finally, Done");
     }
 
