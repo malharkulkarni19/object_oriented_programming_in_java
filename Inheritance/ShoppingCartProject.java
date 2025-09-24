@@ -129,7 +129,6 @@ public class ShoppingCartProject {
         String item_name =  obj.list(item_code);
         double price = obj.price(item_name);
         obj.bill(price);
-        sc2.close();
+        sc2.close();  // close it everytime to maintain security.
     }
-
 }
